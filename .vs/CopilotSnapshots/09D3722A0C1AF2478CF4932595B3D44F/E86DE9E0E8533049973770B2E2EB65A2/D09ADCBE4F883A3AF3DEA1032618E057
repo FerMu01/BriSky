@@ -1,0 +1,21 @@
+﻿using System.Collections.Generic;
+using BriSky.Data;
+using BriSky.Models;
+
+namespace BriSky.Services
+{
+    public class EmpleadoService
+    {
+        private readonly EmpleadoDAO _dao = new EmpleadoDAO();
+
+        public List<Empleado> ObtenerEmpleados()
+        {
+            return _dao.ObtenerEmpleados();
+        }
+
+        public Empleado ObtenerEmpleado(int id)
+        {
+            return _dao.ObtenerEmpleado(id);
+        }
+    }
+}

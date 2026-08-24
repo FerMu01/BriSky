@@ -1,0 +1,14 @@
+﻿using System.Configuration;
+using System.Data.SqlClient;
+
+namespace BriSky.Data
+{
+    public static class Conexion
+    {
+        public static SqlConnection GetConnection()
+        {
+            var cs = ConfigurationManager.ConnectionStrings["BriSkyDB"]?.ConnectionString;
+            return new SqlConnection(cs);
+        }
+    }
+}

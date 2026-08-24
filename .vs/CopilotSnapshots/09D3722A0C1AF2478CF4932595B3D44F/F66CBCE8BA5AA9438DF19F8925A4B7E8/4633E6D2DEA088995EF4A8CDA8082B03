@@ -1,0 +1,59 @@
+﻿using System.Collections.Generic;
+
+public class EmpleadoService
+{
+    private readonly EmpleadoDAO _dao = new EmpleadoDAO();
+
+    public List<Empleado> ObtenerEmpleados()
+    {
+        return _dao.ObtenerEmpleados();
+    }
+
+    public Empleado ObtenerEmpleado(int id)
+    {
+        return _dao.ObtenerEmpleado(id);
+    }
+
+    public int CrearEmpleado(Empleado emp)
+    {
+        // delega al DAO la creación y devuelve el nuevo id (si aplica)
+        return _dao.CrearEmpleado(emp);
+    }
+
+    public int CrearEmpleadoCompleto(Empleado emp, string tipo)
+    {
+        // tipo: "Empleado", "Tripulante", "Piloto"
+        using (var cn = Conexion.GetConnection())
+        {
+            cn.Open();
+            using (var tx = cn.BeginTransaction())
+            {
+                try
+                {
+                    var id = _dao.CrearEmpleado(emp, cn, tx);
+                    if (id <= 0) throw new System.Exception("No se pudo insertar empleado");
+
+                    if (tipo == "Tripulante" || tipo == "Piloto")
+                    {
+                        var trip = emp as Tripulante ?? new Tripulante();
+                        _dao.CrearTripulante(id, trip, cn, tx);
+                    }
+
+                    if (tipo == "Piloto")
+                    {
+                        var pil = emp as Piloto ?? new Piloto();
+                        _dao.CrearPiloto(id, pil, cn, tx);
+                    }
+
+                    tx.Commit();
+                    return id;
+                }
+                catch
+                {
+                    try { tx.Rollback(); } catch { }
+                    throw;
+                }
+            }
+        }
+    }
+}

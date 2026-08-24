@@ -1,0 +1,63 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Data;
+using System.Data.SqlClient;
+
+public class EmpleadoDAO
+{
+    public List<Empleado> ObtenerEmpleados()
+    {
+        var lista = new List<Empleado>();
+        using (var cn = Conexion.GetConnection())
+        using (var cmd = new SqlCommand("SELECT codEmpleado, nombre, apellido, documento, telefono, correo, fechaIngreso, estadoLaboral, idArea FROM empleado", cn))
+        {
+            cn.Open();
+            using (var rdr = cmd.ExecuteReader())
+            {
+                while (rdr.Read())
+                {
+                    var emp = Empleado.FromReader(rdr);
+                    lista.Add(emp);
+                }
+            }
+        }
+        return lista;
+    }
+
+    public Empleado ObtenerEmpleado(int id)
+    {
+        using (var cn = Conexion.GetConnection())
+        using (var cmd = new SqlCommand("SELECT codEmpleado, nombre, apellido, documento, telefono, correo, fechaIngreso, estadoLaboral, idArea FROM empleado WHERE codEmpleado = @id", cn))
+        {
+            cmd.Parameters.AddWithValue("@id", id);
+            cn.Open();
+            using (var rdr = cmd.ExecuteReader())
+            {
+                if (rdr.Read())
+                {
+                    return Empleado.FromReader(rdr);
+                }
+            }
+        }
+        return null;
+    }
+
+    public int CrearEmpleado(Empleado emp)
+    {
+        using (var cn = Conexion.GetConnection())
+        using (var cmd = new SqlCommand("INSERT INTO empleado (nombre, apellido, documento, telefono, correo, fechaIngreso, estadoLaboral, idArea) OUTPUT INSERTED.codEmpleado VALUES (@nombre,@apellido,@documento,@telefono,@correo,@fechaIngreso,@estadoLaboral,@idArea)", cn))
+        {
+            cmd.Parameters.AddWithValue("@nombre", (object)emp.Nombre ?? DBNull.Value);
+            cmd.Parameters.AddWithValue("@apellido", (object)emp.Apellido ?? DBNull.Value);
+            cmd.Parameters.AddWithValue("@documento", (object)emp.Documento ?? DBNull.Value);
+            cmd.Parameters.AddWithValue("@telefono", (object)emp.Telefono ?? DBNull.Value);
+            cmd.Parameters.AddWithValue("@correo", (object)emp.Correo ?? DBNull.Value);
+            cmd.Parameters.AddWithValue("@fechaIngreso", emp.FechaIngreso == DateTime.MinValue ? (object)DBNull.Value : emp.FechaIngreso);
+            cmd.Parameters.AddWithValue("@estadoLaboral", emp.EstadoLaboral);
+            cmd.Parameters.AddWithValue("@idArea", emp.Area != null ? (object)emp.Area.Id : DBNull.Value);
+            cn.Open();
+            var result = cmd.ExecuteScalar();
+            return result != null ? Convert.ToInt32(result) : 0;
+        }
+    }
+}

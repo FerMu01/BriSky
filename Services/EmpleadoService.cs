@@ -1,0 +1,16 @@
+using System.Collections.Generic;
+
+public class EmpleadoService
+{
+    private readonly EmpleadoDAO _dao = new EmpleadoDAO();
+
+    public List<Empleado> ObtenerEmpleados()
+    {
+        return _dao.ObtenerEmpleados();
+    }
+
+    public Empleado ObtenerEmpleado(int id)
+    {
+        return _dao.ObtenerEmpleado(id);
+    }
+}

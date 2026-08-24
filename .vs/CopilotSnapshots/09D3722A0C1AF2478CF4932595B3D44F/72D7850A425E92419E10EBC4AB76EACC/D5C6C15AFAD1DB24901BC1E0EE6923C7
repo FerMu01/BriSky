@@ -1,0 +1,73 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Data;
+using System.Data.SqlClient;
+
+public class EmpleadoDAO
+{
+    public List<Empleado> ObtenerEmpleados()
+    {
+        var lista = new List<Empleado>();
+        using (var cn = Conexion.GetConnection())
+        using (var cmd = new SqlCommand("SELECT codEmpleado, nombre, apellido, documento, telefono, correo, fechaIngreso, estadoLaboral, idArea FROM empleado", cn))
+        {
+            cn.Open();
+            using (var rdr = cmd.ExecuteReader())
+            {
+                while (rdr.Read())
+                {
+                    var emp = new Empleado
+                    {
+                        CodEmpleado = rdr.GetInt32(0),
+                        Nombre = rdr.GetString(1),
+                        Apellido = rdr.GetString(2),
+                        Documento = rdr.IsDBNull(3) ? null : rdr.GetString(3),
+                        Telefono = rdr.IsDBNull(4) ? null : rdr.GetString(4),
+                        Correo = rdr.IsDBNull(5) ? null : rdr.GetString(5),
+                        FechaIngreso = rdr.IsDBNull(6) ? DateTime.MinValue : rdr.GetDateTime(6),
+                        EstadoLaboral = !rdr.IsDBNull(7) && rdr.GetBoolean(7)
+                    };
+                    if (!rdr.IsDBNull(8))
+                    {
+                        emp.Area = new Area { Id = rdr.GetInt32(8) };
+                    }
+                    lista.Add(emp);
+                }
+            }
+        }
+        return lista;
+    }
+
+    public Empleado ObtenerEmpleado(int id)
+    {
+        using (var cn = Conexion.GetConnection())
+        using (var cmd = new SqlCommand("SELECT codEmpleado, nombre, apellido, documento, telefono, correo, fechaIngreso, estadoLaboral, idArea FROM empleado WHERE codEmpleado = @id", cn))
+        {
+            cmd.Parameters.AddWithValue("@id", id);
+            cn.Open();
+            using (var rdr = cmd.ExecuteReader())
+            {
+                if (rdr.Read())
+                {
+                    var emp = new Empleado
+                    {
+                        CodEmpleado = rdr.GetInt32(0),
+                        Nombre = rdr.GetString(1),
+                        Apellido = rdr.GetString(2),
+                        Documento = rdr.IsDBNull(3) ? null : rdr.GetString(3),
+                        Telefono = rdr.IsDBNull(4) ? null : rdr.GetString(4),
+                        Correo = rdr.IsDBNull(5) ? null : rdr.GetString(5),
+                        FechaIngreso = rdr.IsDBNull(6) ? DateTime.MinValue : rdr.GetDateTime(6),
+                        EstadoLaboral = !rdr.IsDBNull(7) && rdr.GetBoolean(7)
+                    };
+                    if (!rdr.IsDBNull(8))
+                    {
+                        emp.Area = new Area { Id = rdr.GetInt32(8) };
+                    }
+                    return emp;
+                }
+            }
+        }
+        return null;
+    }
+}

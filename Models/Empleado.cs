@@ -1,0 +1,14 @@
+using System;
+
+public class Empleado
+{
+    public int CodEmpleado { get; set; }
+    public string Nombre { get; set; }
+    public string Apellido { get; set; }
+    public string Documento { get; set; }
+    public string Telefono { get; set; }
+    public string Correo { get; set; }
+    public DateTime FechaIngreso { get; set; }
+    public bool EstadoLaboral { get; set; }
+    public Area Area { get; set; }
+}

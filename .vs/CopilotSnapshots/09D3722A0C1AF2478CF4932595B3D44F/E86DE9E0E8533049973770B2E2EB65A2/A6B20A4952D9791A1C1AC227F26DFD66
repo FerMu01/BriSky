@@ -1,0 +1,27 @@
+﻿using System;
+using BriSky.Services;
+using BriSky.Models;
+using System.Collections.Generic;
+
+namespace BriSky.Pages.Empleados
+{
+    public partial class ListaEmpleados : System.Web.UI.Page
+    {
+        private readonly EmpleadoService _service = new EmpleadoService();
+
+        protected void Page_Load(object sender, EventArgs e)
+        {
+            if (!IsPostBack)
+            {
+                CargarEmpleados();
+            }
+        }
+
+        private void CargarEmpleados()
+        {
+            var lista = _service.ObtenerEmpleados();
+            gvEmpleados.DataSource = lista;
+            gvEmpleados.DataBind();
+        }
+    }
+}

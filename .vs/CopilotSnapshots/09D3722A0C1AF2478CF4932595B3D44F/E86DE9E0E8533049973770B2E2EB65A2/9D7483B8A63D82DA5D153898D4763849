@@ -1,0 +1,15 @@
+﻿<%@ Page Title="Lista de Empleados" Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="true" CodeBehind="ListaEmpleados.aspx.cs" Inherits="BriSky.Pages.Empleados.ListaEmpleados" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
+    <h2>Empleados</h2>
+    <asp:GridView ID="gvEmpleados" runat="server" AutoGenerateColumns="false">
+        <Columns>
+            <asp:BoundField DataField="CodEmpleado" HeaderText="ID" />
+            <asp:BoundField DataField="Nombre" HeaderText="Nombre" />
+            <asp:BoundField DataField="Apellido" HeaderText="Apellido" />
+            <asp:BoundField DataField="Documento" HeaderText="Documento" />
+            <asp:BoundField DataField="Telefono" HeaderText="Teléfono" />
+            <asp:BoundField DataField="Correo" HeaderText="Correo" />
+        </Columns>
+    </asp:GridView>
+</asp:Content>

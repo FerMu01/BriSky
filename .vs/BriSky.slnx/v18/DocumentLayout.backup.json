@@ -1,0 +1,470 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\nanit\\Downloads\\BriSky\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{55309B4D-8ED3-4A5E-96D5-35DDB5D857A5}|C:\\Users\\nanit\\Downloads\\BriSky|c:\\users\\nanit\\downloads\\brisky\\data\\empleadodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55309B4D-8ED3-4A5E-96D5-35DDB5D857A5}|C:\\Users\\nanit\\Downloads\\BriSky|solutionrelative:data\\empleadodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55309B4D-8ED3-4A5E-96D5-35DDB5D857A5}|C:\\Users\\nanit\\Downloads\\BriSky|C:\\Users\\nanit\\Downloads\\BriSky\\app_code\\models\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55309B4D-8ED3-4A5E-96D5-35DDB5D857A5}|C:\\Users\\nanit\\Downloads\\BriSky|solutionrelative:app_code\\models\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55309B4D-8ED3-4A5E-96D5-35DDB5D857A5}|C:\\Users\\nanit\\Downloads\\BriSky|C:\\Users\\nanit\\Downloads\\BriSky\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{55309B4D-8ED3-4A5E-96D5-35DDB5D857A5}|C:\\Users\\nanit\\Downloads\\BriSky|solutionrelative:web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55309B4D-8ED3-4A5E-96D5-35DDB5D857A5}|C:\\Users\\nanit\\Downloads\\BriSky|C:\\Users\\nanit\\Downloads\\BriSky\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{55309B4D-8ED3-4A5E-96D5-35DDB5D857A5}|C:\\Users\\nanit\\Downloads\\BriSky|solutionrelative:default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55309B4D-8ED3-4A5E-96D5-35DDB5D857A5}|C:\\Users\\nanit\\Downloads\\BriSky|C:\\Users\\nanit\\Downloads\\BriSky\\data\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55309B4D-8ED3-4A5E-96D5-35DDB5D857A5}|C:\\Users\\nanit\\Downloads\\BriSky|solutionrelative:data\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55309B4D-8ED3-4A5E-96D5-35DDB5D857A5}|C:\\Users\\nanit\\Downloads\\BriSky|C:\\Users\\nanit\\Downloads\\BriSky\\models\\area.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55309B4D-8ED3-4A5E-96D5-35DDB5D857A5}|C:\\Users\\nanit\\Downloads\\BriSky|solutionrelative:models\\area.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55309B4D-8ED3-4A5E-96D5-35DDB5D857A5}|C:\\Users\\nanit\\Downloads\\BriSky|C:\\Users\\nanit\\Downloads\\BriSky\\models\\tripulante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55309B4D-8ED3-4A5E-96D5-35DDB5D857A5}|C:\\Users\\nanit\\Downloads\\BriSky|solutionrelative:models\\tripulante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55309B4D-8ED3-4A5E-96D5-35DDB5D857A5}|C:\\Users\\nanit\\Downloads\\BriSky|C:\\Users\\nanit\\Downloads\\BriSky\\models\\piloto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55309B4D-8ED3-4A5E-96D5-35DDB5D857A5}|C:\\Users\\nanit\\Downloads\\BriSky|solutionrelative:models\\piloto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55309B4D-8ED3-4A5E-96D5-35DDB5D857A5}|C:\\Users\\nanit\\Downloads\\BriSky|C:\\Users\\nanit\\Downloads\\BriSky\\models\\tripulantecabina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55309B4D-8ED3-4A5E-96D5-35DDB5D857A5}|C:\\Users\\nanit\\Downloads\\BriSky|solutionrelative:models\\tripulantecabina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55309B4D-8ED3-4A5E-96D5-35DDB5D857A5}|C:\\Users\\nanit\\Downloads\\BriSky|C:\\Users\\nanit\\Downloads\\BriSky\\services\\empleadoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55309B4D-8ED3-4A5E-96D5-35DDB5D857A5}|C:\\Users\\nanit\\Downloads\\BriSky|solutionrelative:services\\empleadoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55309B4D-8ED3-4A5E-96D5-35DDB5D857A5}|C:\\Users\\nanit\\Downloads\\BriSky|C:\\Users\\nanit\\Downloads\\BriSky\\pages\\empleados\\listaempleados.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{55309B4D-8ED3-4A5E-96D5-35DDB5D857A5}|C:\\Users\\nanit\\Downloads\\BriSky|solutionrelative:pages\\empleados\\listaempleados.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55309B4D-8ED3-4A5E-96D5-35DDB5D857A5}|C:\\Users\\nanit\\Downloads\\BriSky|C:\\Users\\nanit\\Downloads\\BriSky\\pages\\empleados\\listaempleados.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55309B4D-8ED3-4A5E-96D5-35DDB5D857A5}|C:\\Users\\nanit\\Downloads\\BriSky|solutionrelative:pages\\empleados\\listaempleados.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55309B4D-8ED3-4A5E-96D5-35DDB5D857A5}|C:\\Users\\nanit\\Downloads\\BriSky|C:\\Users\\nanit\\Downloads\\BriSky\\site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{55309B4D-8ED3-4A5E-96D5-35DDB5D857A5}|C:\\Users\\nanit\\Downloads\\BriSky|solutionrelative:site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55309B4D-8ED3-4A5E-96D5-35DDB5D857A5}|C:\\Users\\nanit\\Downloads\\BriSky|C:\\Users\\nanit\\Downloads\\BriSky\\pages\\vuelos\\listavuelos.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{55309B4D-8ED3-4A5E-96D5-35DDB5D857A5}|C:\\Users\\nanit\\Downloads\\BriSky|solutionrelative:pages\\vuelos\\listavuelos.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55309B4D-8ED3-4A5E-96D5-35DDB5D857A5}|C:\\Users\\nanit\\Downloads\\BriSky|C:\\Users\\nanit\\Downloads\\BriSky\\pages\\vuelos\\listavuelos.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55309B4D-8ED3-4A5E-96D5-35DDB5D857A5}|C:\\Users\\nanit\\Downloads\\BriSky|solutionrelative:pages\\vuelos\\listavuelos.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55309B4D-8ED3-4A5E-96D5-35DDB5D857A5}|C:\\Users\\nanit\\Downloads\\BriSky|C:\\Users\\nanit\\Downloads\\BriSky\\pages\\empleados\\listaempleados.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55309B4D-8ED3-4A5E-96D5-35DDB5D857A5}|C:\\Users\\nanit\\Downloads\\BriSky|solutionrelative:pages\\empleados\\listaempleados.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55309B4D-8ED3-4A5E-96D5-35DDB5D857A5}|C:\\Users\\nanit\\Downloads\\BriSky|C:\\Users\\nanit\\Downloads\\BriSky\\pages\\vuelos\\listavuelos.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55309B4D-8ED3-4A5E-96D5-35DDB5D857A5}|C:\\Users\\nanit\\Downloads\\BriSky|solutionrelative:pages\\vuelos\\listavuelos.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55309B4D-8ED3-4A5E-96D5-35DDB5D857A5}|C:\\Users\\nanit\\Downloads\\BriSky|C:\\Users\\nanit\\Downloads\\BriSky\\models\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55309B4D-8ED3-4A5E-96D5-35DDB5D857A5}|C:\\Users\\nanit\\Downloads\\BriSky|solutionrelative:models\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55309B4D-8ED3-4A5E-96D5-35DDB5D857A5}|C:\\Users\\nanit\\Downloads\\BriSky|C:\\Users\\nanit\\Downloads\\BriSky\\app_code\\models\\area.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55309B4D-8ED3-4A5E-96D5-35DDB5D857A5}|C:\\Users\\nanit\\Downloads\\BriSky|solutionrelative:app_code\\models\\area.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55309B4D-8ED3-4A5E-96D5-35DDB5D857A5}|C:\\Users\\nanit\\Downloads\\BriSky|C:\\Users\\nanit\\Downloads\\BriSky\\app_code\\data\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55309B4D-8ED3-4A5E-96D5-35DDB5D857A5}|C:\\Users\\nanit\\Downloads\\BriSky|solutionrelative:app_code\\data\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55309B4D-8ED3-4A5E-96D5-35DDB5D857A5}|C:\\Users\\nanit\\Downloads\\BriSky|C:\\Users\\nanit\\Downloads\\BriSky\\app_code\\data\\empleadodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55309B4D-8ED3-4A5E-96D5-35DDB5D857A5}|C:\\Users\\nanit\\Downloads\\BriSky|solutionrelative:app_code\\data\\empleadodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55309B4D-8ED3-4A5E-96D5-35DDB5D857A5}|C:\\Users\\nanit\\Downloads\\BriSky|C:\\Users\\nanit\\Downloads\\BriSky\\app_code\\services\\empleadoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55309B4D-8ED3-4A5E-96D5-35DDB5D857A5}|C:\\Users\\nanit\\Downloads\\BriSky|solutionrelative:app_code\\services\\empleadoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55309B4D-8ED3-4A5E-96D5-35DDB5D857A5}|C:\\Users\\nanit\\Downloads\\BriSky|C:\\Users\\nanit\\Downloads\\BriSky\\app_code\\models\\tripulante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55309B4D-8ED3-4A5E-96D5-35DDB5D857A5}|C:\\Users\\nanit\\Downloads\\BriSky|solutionrelative:app_code\\models\\tripulante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55309B4D-8ED3-4A5E-96D5-35DDB5D857A5}|C:\\Users\\nanit\\Downloads\\BriSky|C:\\Users\\nanit\\Downloads\\BriSky\\app_code\\models\\piloto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55309B4D-8ED3-4A5E-96D5-35DDB5D857A5}|C:\\Users\\nanit\\Downloads\\BriSky|solutionrelative:app_code\\models\\piloto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55309B4D-8ED3-4A5E-96D5-35DDB5D857A5}|C:\\Users\\nanit\\Downloads\\BriSky|C:\\Users\\nanit\\Downloads\\BriSky\\app_code\\models\\tripulantecabina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55309B4D-8ED3-4A5E-96D5-35DDB5D857A5}|C:\\Users\\nanit\\Downloads\\BriSky|solutionrelative:app_code\\models\\tripulantecabina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55309B4D-8ED3-4A5E-96D5-35DDB5D857A5}|C:\\Users\\nanit\\Downloads\\BriSky|C:\\Users\\nanit\\Downloads\\BriSky\\pages\\testconexion.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{55309B4D-8ED3-4A5E-96D5-35DDB5D857A5}|C:\\Users\\nanit\\Downloads\\BriSky|solutionrelative:pages\\testconexion.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55309B4D-8ED3-4A5E-96D5-35DDB5D857A5}|C:\\Users\\nanit\\Downloads\\BriSky|C:\\Users\\nanit\\Downloads\\BriSky\\pages\\empleados\\crearempleado.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{55309B4D-8ED3-4A5E-96D5-35DDB5D857A5}|C:\\Users\\nanit\\Downloads\\BriSky|solutionrelative:pages\\empleados\\crearempleado.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55309B4D-8ED3-4A5E-96D5-35DDB5D857A5}|C:\\Users\\nanit\\Downloads\\BriSky|C:\\Users\\nanit\\Downloads\\BriSky\\pages\\empleados\\listatripulantes.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{55309B4D-8ED3-4A5E-96D5-35DDB5D857A5}|C:\\Users\\nanit\\Downloads\\BriSky|solutionrelative:pages\\empleados\\listatripulantes.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ListaTripulantes.aspx",
+              "DocumentMoniker": "C:\\Users\\nanit\\Downloads\\BriSky\\Pages\\Empleados\\ListaTripulantes.aspx",
+              "RelativeDocumentMoniker": "Pages\\Empleados\\ListaTripulantes.aspx",
+              "ToolTip": "C:\\Users\\nanit\\Downloads\\BriSky\\Pages\\Empleados\\ListaTripulantes.aspx",
+              "RelativeToolTip": "Pages\\Empleados\\ListaTripulantes.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-08-24T01:34:41.58Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "CrearEmpleado.aspx",
+              "DocumentMoniker": "C:\\Users\\nanit\\Downloads\\BriSky\\Pages\\Empleados\\CrearEmpleado.aspx",
+              "RelativeDocumentMoniker": "Pages\\Empleados\\CrearEmpleado.aspx",
+              "ToolTip": "C:\\Users\\nanit\\Downloads\\BriSky\\Pages\\Empleados\\CrearEmpleado.aspx",
+              "RelativeToolTip": "Pages\\Empleados\\CrearEmpleado.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-08-24T01:26:33.915Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "TestConexion.aspx",
+              "DocumentMoniker": "C:\\Users\\nanit\\Downloads\\BriSky\\Pages\\TestConexion.aspx",
+              "RelativeDocumentMoniker": "Pages\\TestConexion.aspx",
+              "ToolTip": "C:\\Users\\nanit\\Downloads\\BriSky\\Pages\\TestConexion.aspx",
+              "RelativeToolTip": "Pages\\TestConexion.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-08-24T01:19:52.115Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Empleado.cs",
+              "DocumentMoniker": "C:\\Users\\nanit\\Downloads\\BriSky\\App_Code\\Models\\Empleado.cs",
+              "RelativeDocumentMoniker": "App_Code\\Models\\Empleado.cs",
+              "ToolTip": "C:\\Users\\nanit\\Downloads\\BriSky\\App_Code\\Models\\Empleado.cs",
+              "RelativeToolTip": "App_Code\\Models\\Empleado.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-24T00:48:19.45Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Empleado.cs",
+              "DocumentMoniker": "C:\\Users\\nanit\\Downloads\\BriSky\\Models\\Empleado.cs",
+              "RelativeDocumentMoniker": "Models\\Empleado.cs",
+              "ToolTip": "C:\\Users\\nanit\\Downloads\\BriSky\\Models\\Empleado.cs",
+              "RelativeToolTip": "Models\\Empleado.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-24T00:47:49.214Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmpleadoDAO.cs",
+              "DocumentMoniker": "C:\\Users\\nanit\\Downloads\\BriSky\\Data\\EmpleadoDAO.cs",
+              "RelativeDocumentMoniker": "Data\\EmpleadoDAO.cs",
+              "ToolTip": "C:\\Users\\nanit\\Downloads\\BriSky\\Data\\EmpleadoDAO.cs",
+              "RelativeToolTip": "Data\\EmpleadoDAO.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAApwBQAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-24T00:42:13.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TripulanteCabina.cs",
+              "DocumentMoniker": "C:\\Users\\nanit\\Downloads\\BriSky\\Models\\TripulanteCabina.cs",
+              "RelativeDocumentMoniker": "Models\\TripulanteCabina.cs",
+              "ToolTip": "C:\\Users\\nanit\\Downloads\\BriSky\\Models\\TripulanteCabina.cs",
+              "RelativeToolTip": "Models\\TripulanteCabina.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAIBQwAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-24T00:42:05.078Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Piloto.cs",
+              "DocumentMoniker": "C:\\Users\\nanit\\Downloads\\BriSky\\Models\\Piloto.cs",
+              "RelativeDocumentMoniker": "Models\\Piloto.cs",
+              "ToolTip": "C:\\Users\\nanit\\Downloads\\BriSky\\Models\\Piloto.cs",
+              "RelativeToolTip": "Models\\Piloto.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAIBJwAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-24T00:42:02.085Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Tripulante.cs",
+              "DocumentMoniker": "C:\\Users\\nanit\\Downloads\\BriSky\\Models\\Tripulante.cs",
+              "RelativeDocumentMoniker": "Models\\Tripulante.cs",
+              "ToolTip": "C:\\Users\\nanit\\Downloads\\BriSky\\Models\\Tripulante.cs",
+              "RelativeToolTip": "Models\\Tripulante.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAIBQwAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-24T00:41:55.968Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Area.cs",
+              "DocumentMoniker": "C:\\Users\\nanit\\Downloads\\BriSky\\Models\\Area.cs",
+              "RelativeDocumentMoniker": "Models\\Area.cs",
+              "ToolTip": "C:\\Users\\nanit\\Downloads\\BriSky\\Models\\Area.cs",
+              "RelativeToolTip": "Models\\Area.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBQwAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-24T00:41:49.083Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\nanit\\Downloads\\BriSky\\Web.config",
+              "RelativeDocumentMoniker": "Web.config",
+              "ToolTip": "C:\\Users\\nanit\\Downloads\\BriSky\\Web.config",
+              "RelativeToolTip": "Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-08-24T00:28:58.539Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "TripulanteCabina.cs",
+              "DocumentMoniker": "C:\\Users\\nanit\\Downloads\\BriSky\\App_Code\\Models\\TripulanteCabina.cs",
+              "RelativeDocumentMoniker": "App_Code\\Models\\TripulanteCabina.cs",
+              "ToolTip": "C:\\Users\\nanit\\Downloads\\BriSky\\App_Code\\Models\\TripulanteCabina.cs",
+              "RelativeToolTip": "App_Code\\Models\\TripulanteCabina.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-24T00:49:26.983Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Piloto.cs",
+              "DocumentMoniker": "C:\\Users\\nanit\\Downloads\\BriSky\\App_Code\\Models\\Piloto.cs",
+              "RelativeDocumentMoniker": "App_Code\\Models\\Piloto.cs",
+              "ToolTip": "C:\\Users\\nanit\\Downloads\\BriSky\\App_Code\\Models\\Piloto.cs",
+              "RelativeToolTip": "App_Code\\Models\\Piloto.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAIBJwBwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-24T00:49:22.672Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Tripulante.cs",
+              "DocumentMoniker": "C:\\Users\\nanit\\Downloads\\BriSky\\App_Code\\Models\\Tripulante.cs",
+              "RelativeDocumentMoniker": "App_Code\\Models\\Tripulante.cs",
+              "ToolTip": "C:\\Users\\nanit\\Downloads\\BriSky\\App_Code\\Models\\Tripulante.cs",
+              "RelativeToolTip": "App_Code\\Models\\Tripulante.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAIBJwBgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-24T00:49:19.661Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "EmpleadoService.cs",
+              "DocumentMoniker": "C:\\Users\\nanit\\Downloads\\BriSky\\App_Code\\Services\\EmpleadoService.cs",
+              "RelativeDocumentMoniker": "App_Code\\Services\\EmpleadoService.cs",
+              "ToolTip": "C:\\Users\\nanit\\Downloads\\BriSky\\App_Code\\Services\\EmpleadoService.cs",
+              "RelativeToolTip": "App_Code\\Services\\EmpleadoService.cs",
+              "ViewState": "AgIAABIAAAAAAAAAACBrwCUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-24T00:48:40.744Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "EmpleadoDAO.cs",
+              "DocumentMoniker": "C:\\Users\\nanit\\Downloads\\BriSky\\App_Code\\Data\\EmpleadoDAO.cs",
+              "RelativeDocumentMoniker": "App_Code\\Data\\EmpleadoDAO.cs",
+              "ToolTip": "C:\\Users\\nanit\\Downloads\\BriSky\\App_Code\\Data\\EmpleadoDAO.cs",
+              "RelativeToolTip": "App_Code\\Data\\EmpleadoDAO.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAKBrwMwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-24T00:48:34.54Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Conexion.cs",
+              "DocumentMoniker": "C:\\Users\\nanit\\Downloads\\BriSky\\App_Code\\Data\\Conexion.cs",
+              "RelativeDocumentMoniker": "App_Code\\Data\\Conexion.cs",
+              "ToolTip": "C:\\Users\\nanit\\Downloads\\BriSky\\App_Code\\Data\\Conexion.cs",
+              "RelativeToolTip": "App_Code\\Data\\Conexion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-24T00:48:26.167Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Area.cs",
+              "DocumentMoniker": "C:\\Users\\nanit\\Downloads\\BriSky\\App_Code\\Models\\Area.cs",
+              "RelativeDocumentMoniker": "App_Code\\Models\\Area.cs",
+              "ToolTip": "C:\\Users\\nanit\\Downloads\\BriSky\\App_Code\\Models\\Area.cs",
+              "RelativeToolTip": "App_Code\\Models\\Area.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-24T00:48:21.955Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ListaVuelos.aspx.designer.cs",
+              "DocumentMoniker": "C:\\Users\\nanit\\Downloads\\BriSky\\Pages\\Vuelos\\ListaVuelos.aspx.designer.cs",
+              "RelativeDocumentMoniker": "Pages\\Vuelos\\ListaVuelos.aspx.designer.cs",
+              "ToolTip": "C:\\Users\\nanit\\Downloads\\BriSky\\Pages\\Vuelos\\ListaVuelos.aspx.designer.cs",
+              "RelativeToolTip": "Pages\\Vuelos\\ListaVuelos.aspx.designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-24T00:43:19.544Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ListaEmpleados.aspx.designer.cs",
+              "DocumentMoniker": "C:\\Users\\nanit\\Downloads\\BriSky\\Pages\\Empleados\\ListaEmpleados.aspx.designer.cs",
+              "RelativeDocumentMoniker": "Pages\\Empleados\\ListaEmpleados.aspx.designer.cs",
+              "ToolTip": "C:\\Users\\nanit\\Downloads\\BriSky\\Pages\\Empleados\\ListaEmpleados.aspx.designer.cs",
+              "RelativeToolTip": "Pages\\Empleados\\ListaEmpleados.aspx.designer.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAIBJwBwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-24T00:43:16.04Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Conexion.cs",
+              "DocumentMoniker": "C:\\Users\\nanit\\Downloads\\BriSky\\Data\\Conexion.cs",
+              "RelativeDocumentMoniker": "Data\\Conexion.cs",
+              "ToolTip": "C:\\Users\\nanit\\Downloads\\BriSky\\Data\\Conexion.cs",
+              "RelativeToolTip": "Data\\Conexion.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAIBJwAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-24T00:41:35.777Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ListaVuelos.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\nanit\\Downloads\\BriSky\\Pages\\Vuelos\\ListaVuelos.aspx.cs",
+              "RelativeDocumentMoniker": "Pages\\Vuelos\\ListaVuelos.aspx.cs",
+              "ToolTip": "C:\\Users\\nanit\\Downloads\\BriSky\\Pages\\Vuelos\\ListaVuelos.aspx.cs",
+              "RelativeToolTip": "Pages\\Vuelos\\ListaVuelos.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-24T00:42:49.111Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ListaVuelos.aspx",
+              "DocumentMoniker": "C:\\Users\\nanit\\Downloads\\BriSky\\Pages\\Vuelos\\ListaVuelos.aspx",
+              "RelativeDocumentMoniker": "Pages\\Vuelos\\ListaVuelos.aspx",
+              "ToolTip": "C:\\Users\\nanit\\Downloads\\BriSky\\Pages\\Vuelos\\ListaVuelos.aspx",
+              "RelativeToolTip": "Pages\\Vuelos\\ListaVuelos.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-08-24T00:42:44.339Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Site.master",
+              "DocumentMoniker": "C:\\Users\\nanit\\Downloads\\BriSky\\Site.master",
+              "RelativeDocumentMoniker": "Site.master",
+              "ToolTip": "C:\\Users\\nanit\\Downloads\\BriSky\\Site.master",
+              "RelativeToolTip": "Site.master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-08-24T00:42:36.483Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ListaEmpleados.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\nanit\\Downloads\\BriSky\\Pages\\Empleados\\ListaEmpleados.aspx.cs",
+              "RelativeDocumentMoniker": "Pages\\Empleados\\ListaEmpleados.aspx.cs",
+              "ToolTip": "C:\\Users\\nanit\\Downloads\\BriSky\\Pages\\Empleados\\ListaEmpleados.aspx.cs",
+              "RelativeToolTip": "Pages\\Empleados\\ListaEmpleados.aspx.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAABRwBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-24T00:42:31.617Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ListaEmpleados.aspx",
+              "DocumentMoniker": "C:\\Users\\nanit\\Downloads\\BriSky\\Pages\\Empleados\\ListaEmpleados.aspx",
+              "RelativeDocumentMoniker": "Pages\\Empleados\\ListaEmpleados.aspx",
+              "ToolTip": "C:\\Users\\nanit\\Downloads\\BriSky\\Pages\\Empleados\\ListaEmpleados.aspx",
+              "RelativeToolTip": "Pages\\Empleados\\ListaEmpleados.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-08-24T00:42:24.397Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EmpleadoService.cs",
+              "DocumentMoniker": "C:\\Users\\nanit\\Downloads\\BriSky\\Services\\EmpleadoService.cs",
+              "RelativeDocumentMoniker": "Services\\EmpleadoService.cs",
+              "ToolTip": "C:\\Users\\nanit\\Downloads\\BriSky\\Services\\EmpleadoService.cs",
+              "RelativeToolTip": "Services\\EmpleadoService.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAIBJwBAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-24T00:42:19.449Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Default.aspx",
+              "DocumentMoniker": "C:\\Users\\nanit\\Downloads\\BriSky\\Default.aspx",
+              "RelativeDocumentMoniker": "Default.aspx",
+              "ToolTip": "C:\\Users\\nanit\\Downloads\\BriSky\\Default.aspx",
+              "RelativeToolTip": "Default.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-08-23T04:56:32.818Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

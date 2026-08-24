@@ -1,0 +1,7 @@
+﻿namespace BriSky.Models
+{
+    public class Tripulante : Empleado
+    {
+        public string Licencia { get; set; }
+    }
+}

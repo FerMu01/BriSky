@@ -1,0 +1,16 @@
+﻿<%@ Page Title="Lista de Vuelos" Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="true" CodeBehind="ListaVuelos.aspx.cs" Inherits="BriSky.Pages.Vuelos.ListaVuelos" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
+    <h2>Vuelos</h2>
+    <asp:GridView ID="gvVuelos" runat="server" AutoGenerateColumns="false">
+        <Columns>
+            <asp:BoundField DataField="Codigo" HeaderText="Código" />
+            <asp:BoundField DataField="Origen" HeaderText="Origen" />
+            <asp:BoundField DataField="Destino" HeaderText="Destino" />
+            <asp:BoundField DataField="Fecha" HeaderText="Fecha" DataFormatString="{0:dd/MM/yyyy}" />
+            <asp:BoundField DataField="HoraSalida" HeaderText="Salida" />
+            <asp:BoundField DataField="HoraLlegada" HeaderText="Llegada" />
+            <asp:BoundField DataField="Avion" HeaderText="Avión" />
+        </Columns>
+    </asp:GridView>
+</asp:Content>
