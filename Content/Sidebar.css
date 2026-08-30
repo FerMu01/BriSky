@@ -19,7 +19,10 @@
 #sidebar {
     min-width: var(--sidebar-width);
     max-width: var(--sidebar-width);
-    background: var(--primary-color);
+    background: rgba(11, 17, 32, 0.65);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
     color: var(--text-color);
     transition: all 0.3s;
     z-index: 1000;
@@ -42,7 +45,8 @@
 
 .sidebar-header {
     padding: 20px;
-    background: #0b1120;
+    background: transparent;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
     display: flex;
     align-items: center;
     gap: 15px;
@@ -100,7 +104,7 @@
 #sidebar ul ul a {
     font-size: 0.95em;
     padding-left: 55px;
-    background: #0f172a;
+    background: rgba(0,0,0,0.2);
 }
 
 /* Page Content */
@@ -114,12 +118,14 @@
 
 .top-navbar {
     padding: 15px 25px;
-    background: #ffffff;
-    border-bottom: 1px solid #e2e8f0;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
     display: flex;
     align-items: center;
     gap: 20px;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
 
 .header-title h2 {
@@ -150,10 +156,10 @@
 
 footer {
     padding: 20px 30px;
-    background: #ffffff;
-    border-top: 1px solid #e2e8f0;
+    background: transparent;
+    border-top: 1px solid rgba(255,255,255,0.1);
     text-align: center;
-    color: var(--text-muted);
+    color: var(--text-color);
 }
 
 /* Responsive */

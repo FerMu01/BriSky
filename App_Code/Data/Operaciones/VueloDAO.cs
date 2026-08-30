@@ -189,5 +189,112 @@ namespace BriSky.Data.Operaciones
                 }
             }
         }
+        public List<VueloDetalle> BuscarVuelosWeb(string origen, string destino, DateTime fecha, int cantidadPasajeros)
+        {
+            List<VueloDetalle> lista = new List<VueloDetalle>();
+            using (var con = Conexion.GetConnection())
+            {
+                con.Open();
+                string query = @"
+                    SELECT v.id_vuelo, v.num_vuelo, v.fecha, v.hora_salida, v.hora_llegada,
+                           ao.cod_ciudad AS cod_origen, ao.nombre AS origen_nombre,
+                           ad.cod_ciudad AS cod_destino, ad.nombre AS destino_nombre,
+                           m.nombre AS modelo,
+                           (SELECT COUNT(*) FROM brisky.asiento a WHERE a.id_vuelo = v.id_vuelo AND a.disponible = 1) AS asientos_libres,
+                           (SELECT precio_base FROM brisky.tarifa WHERE cod_tarifa = 'TAR01') AS precio_base
+                    FROM brisky.vuelo v
+                    JOIN brisky.ruta r ON v.cod_ruta = r.cod_ruta
+                    JOIN brisky.aeropuerto ao ON r.cod_aeropuerto_origen = ao.cod_aeropuerto
+                    JOIN brisky.aeropuerto ad ON r.cod_aeropuerto_destino = ad.cod_aeropuerto
+                    LEFT JOIN brisky.avion av ON v.cod_interno = av.cod_interno
+                    LEFT JOIN brisky.modelo_avion m ON av.cod_modelo = m.cod_modelo
+                    WHERE r.cod_aeropuerto_origen = @origen 
+                      AND r.cod_aeropuerto_destino = @destino 
+                      AND v.fecha = @fecha 
+                      AND v.estado = 'PROGRAMADO'
+                      AND (SELECT COUNT(*) FROM brisky.asiento a WHERE a.id_vuelo = v.id_vuelo AND a.disponible = 1) >= @cantidadPasajeros";
+
+                using (var cmd = new SqlCommand(query, con))
+                {
+                    cmd.Parameters.AddWithValue("@origen", origen);
+                    cmd.Parameters.AddWithValue("@destino", destino);
+                    cmd.Parameters.AddWithValue("@fecha", fecha.Date);
+                    cmd.Parameters.AddWithValue("@cantidadPasajeros", cantidadPasajeros);
+
+                    using (var reader = cmd.ExecuteReader())
+                    {
+                        while (reader.Read())
+                        {
+                            lista.Add(new VueloDetalle
+                            {
+                                IdVuelo = Convert.ToInt32(reader["id_vuelo"]),
+                                NumVuelo = reader["num_vuelo"].ToString(),
+                                Fecha = Convert.ToDateTime(reader["fecha"]),
+                                HoraSalida = (TimeSpan)reader["hora_salida"],
+                                HoraLlegada = (TimeSpan)reader["hora_llegada"],
+                                CodigoOrigen = reader["cod_origen"].ToString(),
+                                AeropuertoOrigen = reader["origen_nombre"].ToString(),
+                                CodigoDestino = reader["cod_destino"].ToString(),
+                                AeropuertoDestino = reader["destino_nombre"].ToString(),
+                                ModeloAvion = reader["modelo"] != DBNull.Value ? reader["modelo"].ToString() : "Sin Asignar",
+                                AsientosDisponibles = Convert.ToInt32(reader["asientos_libres"]),
+                                PrecioBase = reader["precio_base"] != DBNull.Value ? Convert.ToDecimal(reader["precio_base"]) : 0
+                            });
+                        }
+                    }
+                }
+            }
+            return lista;
+        }
+
+        public VueloDetalle ObtenerDetallePorId(int idVuelo)
+        {
+            VueloDetalle vd = null;
+            using (var con = Conexion.GetConnection())
+            {
+                con.Open();
+                string query = @"
+                    SELECT v.id_vuelo, v.num_vuelo, v.fecha, v.hora_salida, v.hora_llegada,
+                           ao.cod_ciudad AS cod_origen, ao.nombre AS origen_nombre,
+                           ad.cod_ciudad AS cod_destino, ad.nombre AS destino_nombre,
+                           m.nombre AS modelo,
+                           (SELECT COUNT(*) FROM brisky.asiento a WHERE a.id_vuelo = v.id_vuelo AND a.disponible = 1) AS asientos_libres,
+                           (SELECT precio_base FROM brisky.tarifa WHERE cod_tarifa = 'TAR01') AS precio_base
+                    FROM brisky.vuelo v
+                    JOIN brisky.ruta r ON v.cod_ruta = r.cod_ruta
+                    JOIN brisky.aeropuerto ao ON r.cod_aeropuerto_origen = ao.cod_aeropuerto
+                    JOIN brisky.aeropuerto ad ON r.cod_aeropuerto_destino = ad.cod_aeropuerto
+                    LEFT JOIN brisky.avion av ON v.cod_interno = av.cod_interno
+                    LEFT JOIN brisky.modelo_avion m ON av.cod_modelo = m.cod_modelo
+                    WHERE v.id_vuelo = @id";
+
+                using (var cmd = new SqlCommand(query, con))
+                {
+                    cmd.Parameters.AddWithValue("@id", idVuelo);
+                    using (var reader = cmd.ExecuteReader())
+                    {
+                        if (reader.Read())
+                        {
+                            vd = new VueloDetalle
+                            {
+                                IdVuelo = Convert.ToInt32(reader["id_vuelo"]),
+                                NumVuelo = reader["num_vuelo"].ToString(),
+                                Fecha = Convert.ToDateTime(reader["fecha"]),
+                                HoraSalida = (TimeSpan)reader["hora_salida"],
+                                HoraLlegada = (TimeSpan)reader["hora_llegada"],
+                                CodigoOrigen = reader["cod_origen"].ToString(),
+                                AeropuertoOrigen = reader["origen_nombre"].ToString(),
+                                CodigoDestino = reader["cod_destino"].ToString(),
+                                AeropuertoDestino = reader["destino_nombre"].ToString(),
+                                ModeloAvion = reader["modelo"] != DBNull.Value ? reader["modelo"].ToString() : "Sin Asignar",
+                                AsientosDisponibles = Convert.ToInt32(reader["asientos_libres"]),
+                                PrecioBase = reader["precio_base"] != DBNull.Value ? Convert.ToDecimal(reader["precio_base"]) : 0
+                            };
+                        }
+                    }
+                }
+            }
+            return vd;
+        }
     }
 }

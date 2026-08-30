@@ -139,5 +139,21 @@ namespace BriSky.Data.Comercial
                 }
             }
         }
+
+        public void EmitirBoleto(string numBoleto, int idVuelo, string numAsiento)
+        {
+            using (var con = Conexion.GetConnection())
+            {
+                con.Open();
+                using (var cmd = new SqlCommand("brisky.emitir_boleto", con))
+                {
+                    cmd.CommandType = CommandType.StoredProcedure;
+                    cmd.Parameters.AddWithValue("@p_num_boleto", numBoleto);
+                    cmd.Parameters.AddWithValue("@p_id_vuelo", idVuelo);
+                    cmd.Parameters.AddWithValue("@p_num_asiento", numAsiento);
+                    cmd.ExecuteNonQuery();
+                }
+            }
+        }
     }
 }

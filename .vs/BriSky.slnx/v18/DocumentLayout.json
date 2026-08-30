@@ -1,122 +1,105 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Universidad\\Brisky\\",
+  "WorkspaceRootPath": "C:\\Universidad\\BriskyNew\\BriSky\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{55309B4D-8ED3-4A5E-96D5-35DDB5D857A5}|C:\\Universidad\\Brisky|c:\\universidad\\brisky\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{55309B4D-8ED3-4A5E-96D5-35DDB5D857A5}|C:\\Universidad\\Brisky|solutionrelative:default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{55309B4D-8ED3-4A5E-96D5-35DDB5D857A5}|C:\\Universidad\\BriskyNew\\BriSky|c:\\universidad\\briskynew\\brisky\\pages\\cliente\\compra.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{55309B4D-8ED3-4A5E-96D5-35DDB5D857A5}|C:\\Universidad\\BriskyNew\\BriSky|solutionrelative:pages\\cliente\\compra.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{55309B4D-8ED3-4A5E-96D5-35DDB5D857A5}|C:\\Users\\nanit\\Downloads\\BriSky|C:\\Universidad\\Brisky\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{55309B4D-8ED3-4A5E-96D5-35DDB5D857A5}|C:\\Universidad\\BriskyNew\\BriSky|c:\\universidad\\briskynew\\brisky\\app_code\\services\\comercial\\reservaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55309B4D-8ED3-4A5E-96D5-35DDB5D857A5}|C:\\Universidad\\BriskyNew\\BriSky|solutionrelative:app_code\\services\\comercial\\reservaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55309B4D-8ED3-4A5E-96D5-35DDB5D857A5}|C:\\Universidad\\BriskyNew\\BriSky|c:\\universidad\\briskynew\\brisky\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{55309B4D-8ED3-4A5E-96D5-35DDB5D857A5}|C:\\Universidad\\BriskyNew\\BriSky|solutionrelative:default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55309B4D-8ED3-4A5E-96D5-35DDB5D857A5}|C:\\Users\\nanit\\Downloads\\BriSky|C:\\Universidad\\BriskyNew\\BriSky\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{55309B4D-8ED3-4A5E-96D5-35DDB5D857A5}|C:\\Users\\nanit\\Downloads\\BriSky|solutionrelative:default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Universidad\\Brisky\\Data\\EmpleadoDAO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\EmpleadoDAO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Universidad\\Brisky\\Data\\EmpleadoDAO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{55309B4D-8ED3-4A5E-96D5-35DDB5D857A5}|C:\\Users\\nanit\\Downloads\\BriSky|C:\\Universidad\\Brisky\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{55309B4D-8ED3-4A5E-96D5-35DDB5D857A5}|C:\\Users\\nanit\\Downloads\\BriSky|solutionrelative:web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55309B4D-8ED3-4A5E-96D5-35DDB5D857A5}|C:\\Users\\nanit\\Downloads\\BriSky|C:\\Universidad\\Brisky\\site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "AbsoluteMoniker": "D:0:0:{55309B4D-8ED3-4A5E-96D5-35DDB5D857A5}|C:\\Users\\nanit\\Downloads\\BriSky|C:\\Universidad\\BriskyNew\\BriSky\\site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
       "RelativeMoniker": "D:0:0:{55309B4D-8ED3-4A5E-96D5-35DDB5D857A5}|C:\\Users\\nanit\\Downloads\\BriSky|solutionrelative:site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{55309B4D-8ED3-4A5E-96D5-35DDB5D857A5}|C:\\Users\\nanit\\Downloads\\BriSky|C:\\Universidad\\Brisky\\app_code\\data\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{55309B4D-8ED3-4A5E-96D5-35DDB5D857A5}|C:\\Users\\nanit\\Downloads\\BriSky|C:\\Universidad\\BriskyNew\\BriSky\\app_code\\data\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{55309B4D-8ED3-4A5E-96D5-35DDB5D857A5}|C:\\Users\\nanit\\Downloads\\BriSky|solutionrelative:app_code\\data\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Universidad\\Brisky\\Pages\\Empleados\\ListaTripulantes.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Pages\\Empleados\\ListaTripulantes.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Universidad\\Brisky\\Pages\\Empleados\\ListaTripulantes.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Universidad\\Brisky\\Pages\\Empleados\\CrearEmpleado.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Pages\\Empleados\\CrearEmpleado.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Universidad\\Brisky\\Pages\\Empleados\\CrearEmpleado.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Universidad\\Brisky\\Pages\\TestConexion.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Pages\\TestConexion.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Universidad\\Brisky\\Pages\\TestConexion.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Universidad\\Brisky\\Models\\Empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\Empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Universidad\\Brisky\\Models\\Empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Universidad\\Brisky\\Models\\TripulanteCabina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\TripulanteCabina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Universidad\\Brisky\\Models\\TripulanteCabina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Universidad\\Brisky\\Models\\Piloto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\Piloto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Universidad\\Brisky\\Models\\Piloto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Universidad\\Brisky\\Models\\Tripulante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\Tripulante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Universidad\\Brisky\\Models\\Tripulante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Universidad\\Brisky\\Models\\Area.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\Area.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Universidad\\Brisky\\Models\\Area.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Universidad\\Brisky\\Pages\\Vuelos\\ListaVuelos.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Pages\\Vuelos\\ListaVuelos.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Universidad\\Brisky\\Pages\\Vuelos\\ListaVuelos.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Universidad\\Brisky\\Pages\\Empleados\\ListaEmpleados.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Pages\\Empleados\\ListaEmpleados.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Universidad\\Brisky\\Pages\\Empleados\\ListaEmpleados.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Universidad\\Brisky\\Pages\\Vuelos\\ListaVuelos.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Pages\\Vuelos\\ListaVuelos.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Universidad\\Brisky\\Pages\\Vuelos\\ListaVuelos.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Universidad\\Brisky\\Pages\\Vuelos\\ListaVuelos.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Pages\\Vuelos\\ListaVuelos.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Universidad\\Brisky\\Pages\\Vuelos\\ListaVuelos.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Universidad\\Brisky\\Pages\\Empleados\\ListaEmpleados.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Pages\\Empleados\\ListaEmpleados.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Universidad\\Brisky\\Pages\\Empleados\\ListaEmpleados.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Universidad\\Brisky\\Pages\\Empleados\\ListaEmpleados.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Pages\\Empleados\\ListaEmpleados.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Universidad\\Brisky\\Pages\\Empleados\\ListaEmpleados.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Universidad\\Brisky\\Services\\EmpleadoService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\EmpleadoService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Universidad\\Brisky\\Services\\EmpleadoService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Universidad\\Brisky\\App_Code\\Models\\Empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:App_Code\\Models\\Empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Universidad\\Brisky\\App_Code\\Models\\Empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Universidad\\Brisky\\App_Code\\Models\\TripulanteCabina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:App_Code\\Models\\TripulanteCabina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Universidad\\Brisky\\App_Code\\Models\\TripulanteCabina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Universidad\\Brisky\\App_Code\\Models\\Piloto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:App_Code\\Models\\Piloto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Universidad\\Brisky\\App_Code\\Models\\Piloto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Universidad\\Brisky\\App_Code\\Models\\Tripulante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:App_Code\\Models\\Tripulante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Universidad\\Brisky\\App_Code\\Models\\Tripulante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Universidad\\Brisky\\App_Code\\Services\\EmpleadoService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:App_Code\\Services\\EmpleadoService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Universidad\\Brisky\\App_Code\\Services\\EmpleadoService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Universidad\\Brisky\\App_Code\\Data\\EmpleadoDAO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:App_Code\\Data\\EmpleadoDAO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Universidad\\Brisky\\App_Code\\Data\\EmpleadoDAO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Universidad\\Brisky\\App_Code\\Models\\Area.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:App_Code\\Models\\Area.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Universidad\\Brisky\\App_Code\\Models\\Area.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Universidad\\Brisky\\Data\\Conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\Conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Universidad\\Brisky\\Data\\Conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Universidad\\Brisky\\Web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     }
   ],
   "DocumentGroupContainers": [
@@ -131,10 +114,36 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Compra.aspx",
+              "DocumentMoniker": "C:\\Universidad\\BriskyNew\\BriSky\\Pages\\Cliente\\Compra.aspx",
+              "RelativeDocumentMoniker": "Pages\\Cliente\\Compra.aspx",
+              "ToolTip": "C:\\Universidad\\BriskyNew\\BriSky\\Pages\\Cliente\\Compra.aspx",
+              "RelativeToolTip": "Pages\\Cliente\\Compra.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-08-30T21:59:07.455Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ReservaService.cs",
+              "DocumentMoniker": "C:\\Universidad\\BriskyNew\\BriSky\\App_Code\\Services\\Comercial\\ReservaService.cs",
+              "RelativeDocumentMoniker": "App_Code\\Services\\Comercial\\ReservaService.cs",
+              "ToolTip": "C:\\Universidad\\BriskyNew\\BriSky\\App_Code\\Services\\Comercial\\ReservaService.cs",
+              "RelativeToolTip": "App_Code\\Services\\Comercial\\ReservaService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-30T20:32:30.394Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Default.aspx",
-              "DocumentMoniker": "C:\\Universidad\\Brisky\\Default.aspx",
+              "DocumentMoniker": "C:\\Universidad\\BriskyNew\\BriSky\\Default.aspx",
               "RelativeDocumentMoniker": "Default.aspx",
-              "ToolTip": "C:\\Universidad\\Brisky\\Default.aspx",
+              "ToolTip": "C:\\Universidad\\BriskyNew\\BriSky\\Default.aspx",
               "RelativeToolTip": "Default.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
@@ -143,82 +152,82 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "CrearEmpleado.aspx",
               "DocumentMoniker": "C:\\Universidad\\Brisky\\Pages\\Empleados\\CrearEmpleado.aspx",
-              "RelativeDocumentMoniker": "Pages\\Empleados\\CrearEmpleado.aspx",
+              "RelativeDocumentMoniker": "..\\..\\Brisky\\Pages\\Empleados\\CrearEmpleado.aspx",
               "ToolTip": "C:\\Universidad\\Brisky\\Pages\\Empleados\\CrearEmpleado.aspx",
-              "RelativeToolTip": "Pages\\Empleados\\CrearEmpleado.aspx",
+              "RelativeToolTip": "..\\..\\Brisky\\Pages\\Empleados\\CrearEmpleado.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
               "WhenOpened": "2026-08-24T01:26:33.915Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "TestConexion.aspx",
               "DocumentMoniker": "C:\\Universidad\\Brisky\\Pages\\TestConexion.aspx",
-              "RelativeDocumentMoniker": "Pages\\TestConexion.aspx",
+              "RelativeDocumentMoniker": "..\\..\\Brisky\\Pages\\TestConexion.aspx",
               "ToolTip": "C:\\Universidad\\Brisky\\Pages\\TestConexion.aspx",
-              "RelativeToolTip": "Pages\\TestConexion.aspx",
+              "RelativeToolTip": "..\\..\\Brisky\\Pages\\TestConexion.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
               "WhenOpened": "2026-08-24T01:19:52.115Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "Empleado.cs",
               "DocumentMoniker": "C:\\Universidad\\Brisky\\App_Code\\Models\\Empleado.cs",
-              "RelativeDocumentMoniker": "App_Code\\Models\\Empleado.cs",
+              "RelativeDocumentMoniker": "..\\..\\Brisky\\App_Code\\Models\\Empleado.cs",
               "ToolTip": "C:\\Universidad\\Brisky\\App_Code\\Models\\Empleado.cs",
-              "RelativeToolTip": "App_Code\\Models\\Empleado.cs",
+              "RelativeToolTip": "..\\..\\Brisky\\App_Code\\Models\\Empleado.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-24T00:48:19.45Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Empleado.cs",
               "DocumentMoniker": "C:\\Universidad\\Brisky\\Models\\Empleado.cs",
-              "RelativeDocumentMoniker": "Models\\Empleado.cs",
+              "RelativeDocumentMoniker": "..\\..\\Brisky\\Models\\Empleado.cs",
               "ToolTip": "C:\\Universidad\\Brisky\\Models\\Empleado.cs",
-              "RelativeToolTip": "Models\\Empleado.cs",
+              "RelativeToolTip": "..\\..\\Brisky\\Models\\Empleado.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-24T00:47:49.214Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "EmpleadoDAO.cs",
               "DocumentMoniker": "C:\\Universidad\\Brisky\\Data\\EmpleadoDAO.cs",
-              "RelativeDocumentMoniker": "Data\\EmpleadoDAO.cs",
+              "RelativeDocumentMoniker": "..\\..\\Brisky\\Data\\EmpleadoDAO.cs",
               "ToolTip": "C:\\Universidad\\Brisky\\Data\\EmpleadoDAO.cs",
-              "RelativeToolTip": "Data\\EmpleadoDAO.cs",
+              "RelativeToolTip": "..\\..\\Brisky\\Data\\EmpleadoDAO.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-24T00:42:13.773Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "TripulanteCabina.cs",
               "DocumentMoniker": "C:\\Universidad\\Brisky\\Models\\TripulanteCabina.cs",
-              "RelativeDocumentMoniker": "Models\\TripulanteCabina.cs",
+              "RelativeDocumentMoniker": "..\\..\\Brisky\\Models\\TripulanteCabina.cs",
               "ToolTip": "C:\\Universidad\\Brisky\\Models\\TripulanteCabina.cs",
-              "RelativeToolTip": "Models\\TripulanteCabina.cs",
+              "RelativeToolTip": "..\\..\\Brisky\\Models\\TripulanteCabina.cs",
               "ViewState": "AgIAAAIAAAAAAAAAAIBQwAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-24T00:42:05.078Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Default.aspx",
-              "DocumentMoniker": "C:\\Universidad\\Brisky\\Default.aspx",
+              "DocumentMoniker": "C:\\Universidad\\BriskyNew\\BriSky\\Default.aspx",
               "RelativeDocumentMoniker": "Default.aspx",
-              "ToolTip": "C:\\Universidad\\Brisky\\Default.aspx",
+              "ToolTip": "C:\\Universidad\\BriskyNew\\BriSky\\Default.aspx",
               "RelativeToolTip": "Default.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
@@ -226,131 +235,131 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "ListaTripulantes.aspx",
               "DocumentMoniker": "C:\\Universidad\\Brisky\\Pages\\Empleados\\ListaTripulantes.aspx",
-              "RelativeDocumentMoniker": "Pages\\Empleados\\ListaTripulantes.aspx",
+              "RelativeDocumentMoniker": "..\\..\\Brisky\\Pages\\Empleados\\ListaTripulantes.aspx",
               "ToolTip": "C:\\Universidad\\Brisky\\Pages\\Empleados\\ListaTripulantes.aspx",
-              "RelativeToolTip": "Pages\\Empleados\\ListaTripulantes.aspx",
+              "RelativeToolTip": "..\\..\\Brisky\\Pages\\Empleados\\ListaTripulantes.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
               "WhenOpened": "2026-08-24T01:34:41.58Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Piloto.cs",
               "DocumentMoniker": "C:\\Universidad\\Brisky\\Models\\Piloto.cs",
-              "RelativeDocumentMoniker": "Models\\Piloto.cs",
+              "RelativeDocumentMoniker": "..\\..\\Brisky\\Models\\Piloto.cs",
               "ToolTip": "C:\\Universidad\\Brisky\\Models\\Piloto.cs",
-              "RelativeToolTip": "Models\\Piloto.cs",
+              "RelativeToolTip": "..\\..\\Brisky\\Models\\Piloto.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAIBJwAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-24T00:42:02.085Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "Tripulante.cs",
               "DocumentMoniker": "C:\\Universidad\\Brisky\\Models\\Tripulante.cs",
-              "RelativeDocumentMoniker": "Models\\Tripulante.cs",
+              "RelativeDocumentMoniker": "..\\..\\Brisky\\Models\\Tripulante.cs",
               "ToolTip": "C:\\Universidad\\Brisky\\Models\\Tripulante.cs",
-              "RelativeToolTip": "Models\\Tripulante.cs",
+              "RelativeToolTip": "..\\..\\Brisky\\Models\\Tripulante.cs",
               "ViewState": "AgIAAAIAAAAAAAAAAIBQwAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-24T00:41:55.968Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "Area.cs",
               "DocumentMoniker": "C:\\Universidad\\Brisky\\Models\\Area.cs",
-              "RelativeDocumentMoniker": "Models\\Area.cs",
+              "RelativeDocumentMoniker": "..\\..\\Brisky\\Models\\Area.cs",
               "ToolTip": "C:\\Universidad\\Brisky\\Models\\Area.cs",
-              "RelativeToolTip": "Models\\Area.cs",
+              "RelativeToolTip": "..\\..\\Brisky\\Models\\Area.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAIBQwAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-24T00:41:49.083Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 30,
               "Title": "Web.config",
               "DocumentMoniker": "C:\\Universidad\\Brisky\\Web.config",
-              "RelativeDocumentMoniker": "Web.config",
+              "RelativeDocumentMoniker": "..\\..\\Brisky\\Web.config",
               "ToolTip": "C:\\Universidad\\Brisky\\Web.config",
-              "RelativeToolTip": "Web.config",
+              "RelativeToolTip": "..\\..\\Brisky\\Web.config",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
               "WhenOpened": "2026-08-24T00:28:58.539Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "TripulanteCabina.cs",
               "DocumentMoniker": "C:\\Universidad\\Brisky\\App_Code\\Models\\TripulanteCabina.cs",
-              "RelativeDocumentMoniker": "App_Code\\Models\\TripulanteCabina.cs",
+              "RelativeDocumentMoniker": "..\\..\\Brisky\\App_Code\\Models\\TripulanteCabina.cs",
               "ToolTip": "C:\\Universidad\\Brisky\\App_Code\\Models\\TripulanteCabina.cs",
-              "RelativeToolTip": "App_Code\\Models\\TripulanteCabina.cs",
+              "RelativeToolTip": "..\\..\\Brisky\\App_Code\\Models\\TripulanteCabina.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-24T00:49:26.983Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "Piloto.cs",
               "DocumentMoniker": "C:\\Universidad\\Brisky\\App_Code\\Models\\Piloto.cs",
-              "RelativeDocumentMoniker": "App_Code\\Models\\Piloto.cs",
+              "RelativeDocumentMoniker": "..\\..\\Brisky\\App_Code\\Models\\Piloto.cs",
               "ToolTip": "C:\\Universidad\\Brisky\\App_Code\\Models\\Piloto.cs",
-              "RelativeToolTip": "App_Code\\Models\\Piloto.cs",
+              "RelativeToolTip": "..\\..\\Brisky\\App_Code\\Models\\Piloto.cs",
               "ViewState": "AgIAABoAAAAAAAAAAIBJwBwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-24T00:49:22.672Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "Tripulante.cs",
               "DocumentMoniker": "C:\\Universidad\\Brisky\\App_Code\\Models\\Tripulante.cs",
-              "RelativeDocumentMoniker": "App_Code\\Models\\Tripulante.cs",
+              "RelativeDocumentMoniker": "..\\..\\Brisky\\App_Code\\Models\\Tripulante.cs",
               "ToolTip": "C:\\Universidad\\Brisky\\App_Code\\Models\\Tripulante.cs",
-              "RelativeToolTip": "App_Code\\Models\\Tripulante.cs",
+              "RelativeToolTip": "..\\..\\Brisky\\App_Code\\Models\\Tripulante.cs",
               "ViewState": "AgIAABYAAAAAAAAAAIBJwBgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-24T00:49:19.661Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "EmpleadoService.cs",
               "DocumentMoniker": "C:\\Universidad\\Brisky\\App_Code\\Services\\EmpleadoService.cs",
-              "RelativeDocumentMoniker": "App_Code\\Services\\EmpleadoService.cs",
+              "RelativeDocumentMoniker": "..\\..\\Brisky\\App_Code\\Services\\EmpleadoService.cs",
               "ToolTip": "C:\\Universidad\\Brisky\\App_Code\\Services\\EmpleadoService.cs",
-              "RelativeToolTip": "App_Code\\Services\\EmpleadoService.cs",
+              "RelativeToolTip": "..\\..\\Brisky\\App_Code\\Services\\EmpleadoService.cs",
               "ViewState": "AgIAABIAAAAAAAAAACBrwCUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-24T00:48:40.744Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "EmpleadoDAO.cs",
               "DocumentMoniker": "C:\\Universidad\\Brisky\\App_Code\\Data\\EmpleadoDAO.cs",
-              "RelativeDocumentMoniker": "App_Code\\Data\\EmpleadoDAO.cs",
+              "RelativeDocumentMoniker": "..\\..\\Brisky\\App_Code\\Data\\EmpleadoDAO.cs",
               "ToolTip": "C:\\Universidad\\Brisky\\App_Code\\Data\\EmpleadoDAO.cs",
-              "RelativeToolTip": "App_Code\\Data\\EmpleadoDAO.cs",
+              "RelativeToolTip": "..\\..\\Brisky\\App_Code\\Data\\EmpleadoDAO.cs",
               "ViewState": "AgIAADEAAAAAAAAAAKBrwMwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-24T00:48:34.54Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Conexion.cs",
-              "DocumentMoniker": "C:\\Universidad\\Brisky\\App_Code\\Data\\Conexion.cs",
+              "DocumentMoniker": "C:\\Universidad\\BriskyNew\\BriSky\\App_Code\\Data\\Conexion.cs",
               "RelativeDocumentMoniker": "App_Code\\Data\\Conexion.cs",
-              "ToolTip": "C:\\Universidad\\Brisky\\App_Code\\Data\\Conexion.cs",
+              "ToolTip": "C:\\Universidad\\BriskyNew\\BriSky\\App_Code\\Data\\Conexion.cs",
               "RelativeToolTip": "App_Code\\Data\\Conexion.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -358,83 +367,83 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "Area.cs",
               "DocumentMoniker": "C:\\Universidad\\Brisky\\App_Code\\Models\\Area.cs",
-              "RelativeDocumentMoniker": "App_Code\\Models\\Area.cs",
+              "RelativeDocumentMoniker": "..\\..\\Brisky\\App_Code\\Models\\Area.cs",
               "ToolTip": "C:\\Universidad\\Brisky\\App_Code\\Models\\Area.cs",
-              "RelativeToolTip": "App_Code\\Models\\Area.cs",
+              "RelativeToolTip": "..\\..\\Brisky\\App_Code\\Models\\Area.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-24T00:48:21.955Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "ListaVuelos.aspx.designer.cs",
               "DocumentMoniker": "C:\\Universidad\\Brisky\\Pages\\Vuelos\\ListaVuelos.aspx.designer.cs",
-              "RelativeDocumentMoniker": "Pages\\Vuelos\\ListaVuelos.aspx.designer.cs",
+              "RelativeDocumentMoniker": "..\\..\\Brisky\\Pages\\Vuelos\\ListaVuelos.aspx.designer.cs",
               "ToolTip": "C:\\Universidad\\Brisky\\Pages\\Vuelos\\ListaVuelos.aspx.designer.cs",
-              "RelativeToolTip": "Pages\\Vuelos\\ListaVuelos.aspx.designer.cs",
+              "RelativeToolTip": "..\\..\\Brisky\\Pages\\Vuelos\\ListaVuelos.aspx.designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-24T00:43:19.544Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "ListaEmpleados.aspx.designer.cs",
               "DocumentMoniker": "C:\\Universidad\\Brisky\\Pages\\Empleados\\ListaEmpleados.aspx.designer.cs",
-              "RelativeDocumentMoniker": "Pages\\Empleados\\ListaEmpleados.aspx.designer.cs",
+              "RelativeDocumentMoniker": "..\\..\\Brisky\\Pages\\Empleados\\ListaEmpleados.aspx.designer.cs",
               "ToolTip": "C:\\Universidad\\Brisky\\Pages\\Empleados\\ListaEmpleados.aspx.designer.cs",
-              "RelativeToolTip": "Pages\\Empleados\\ListaEmpleados.aspx.designer.cs",
+              "RelativeToolTip": "..\\..\\Brisky\\Pages\\Empleados\\ListaEmpleados.aspx.designer.cs",
               "ViewState": "AgIAABoAAAAAAAAAAIBJwBwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-24T00:43:16.04Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "Conexion.cs",
               "DocumentMoniker": "C:\\Universidad\\Brisky\\Data\\Conexion.cs",
-              "RelativeDocumentMoniker": "Data\\Conexion.cs",
+              "RelativeDocumentMoniker": "..\\..\\Brisky\\Data\\Conexion.cs",
               "ToolTip": "C:\\Universidad\\Brisky\\Data\\Conexion.cs",
-              "RelativeToolTip": "Data\\Conexion.cs",
+              "RelativeToolTip": "..\\..\\Brisky\\Data\\Conexion.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAIBJwAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-24T00:41:35.777Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "ListaVuelos.aspx.cs",
               "DocumentMoniker": "C:\\Universidad\\Brisky\\Pages\\Vuelos\\ListaVuelos.aspx.cs",
-              "RelativeDocumentMoniker": "Pages\\Vuelos\\ListaVuelos.aspx.cs",
+              "RelativeDocumentMoniker": "..\\..\\Brisky\\Pages\\Vuelos\\ListaVuelos.aspx.cs",
               "ToolTip": "C:\\Universidad\\Brisky\\Pages\\Vuelos\\ListaVuelos.aspx.cs",
-              "RelativeToolTip": "Pages\\Vuelos\\ListaVuelos.aspx.cs",
+              "RelativeToolTip": "..\\..\\Brisky\\Pages\\Vuelos\\ListaVuelos.aspx.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-24T00:42:49.111Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "ListaVuelos.aspx",
               "DocumentMoniker": "C:\\Universidad\\Brisky\\Pages\\Vuelos\\ListaVuelos.aspx",
-              "RelativeDocumentMoniker": "Pages\\Vuelos\\ListaVuelos.aspx",
+              "RelativeDocumentMoniker": "..\\..\\Brisky\\Pages\\Vuelos\\ListaVuelos.aspx",
               "ToolTip": "C:\\Universidad\\Brisky\\Pages\\Vuelos\\ListaVuelos.aspx",
-              "RelativeToolTip": "Pages\\Vuelos\\ListaVuelos.aspx",
+              "RelativeToolTip": "..\\..\\Brisky\\Pages\\Vuelos\\ListaVuelos.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
               "WhenOpened": "2026-08-24T00:42:44.339Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Site.master",
-              "DocumentMoniker": "C:\\Universidad\\Brisky\\Site.master",
+              "DocumentMoniker": "C:\\Universidad\\BriskyNew\\BriSky\\Site.master",
               "RelativeDocumentMoniker": "Site.master",
-              "ToolTip": "C:\\Universidad\\Brisky\\Site.master",
+              "ToolTip": "C:\\Universidad\\BriskyNew\\BriSky\\Site.master",
               "RelativeToolTip": "Site.master",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
@@ -442,36 +451,36 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "ListaEmpleados.aspx.cs",
               "DocumentMoniker": "C:\\Universidad\\Brisky\\Pages\\Empleados\\ListaEmpleados.aspx.cs",
-              "RelativeDocumentMoniker": "Pages\\Empleados\\ListaEmpleados.aspx.cs",
+              "RelativeDocumentMoniker": "..\\..\\Brisky\\Pages\\Empleados\\ListaEmpleados.aspx.cs",
               "ToolTip": "C:\\Universidad\\Brisky\\Pages\\Empleados\\ListaEmpleados.aspx.cs",
-              "RelativeToolTip": "Pages\\Empleados\\ListaEmpleados.aspx.cs",
+              "RelativeToolTip": "..\\..\\Brisky\\Pages\\Empleados\\ListaEmpleados.aspx.cs",
               "ViewState": "AgIAABYAAAAAAAAAAABRwBkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-24T00:42:31.617Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "ListaEmpleados.aspx",
               "DocumentMoniker": "C:\\Universidad\\Brisky\\Pages\\Empleados\\ListaEmpleados.aspx",
-              "RelativeDocumentMoniker": "Pages\\Empleados\\ListaEmpleados.aspx",
+              "RelativeDocumentMoniker": "..\\..\\Brisky\\Pages\\Empleados\\ListaEmpleados.aspx",
               "ToolTip": "C:\\Universidad\\Brisky\\Pages\\Empleados\\ListaEmpleados.aspx",
-              "RelativeToolTip": "Pages\\Empleados\\ListaEmpleados.aspx",
+              "RelativeToolTip": "..\\..\\Brisky\\Pages\\Empleados\\ListaEmpleados.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
               "WhenOpened": "2026-08-24T00:42:24.397Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "EmpleadoService.cs",
               "DocumentMoniker": "C:\\Universidad\\Brisky\\Services\\EmpleadoService.cs",
-              "RelativeDocumentMoniker": "Services\\EmpleadoService.cs",
+              "RelativeDocumentMoniker": "..\\..\\Brisky\\Services\\EmpleadoService.cs",
               "ToolTip": "C:\\Universidad\\Brisky\\Services\\EmpleadoService.cs",
-              "RelativeToolTip": "Services\\EmpleadoService.cs",
+              "RelativeToolTip": "..\\..\\Brisky\\Services\\EmpleadoService.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAIBJwBAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-24T00:42:19.449Z"

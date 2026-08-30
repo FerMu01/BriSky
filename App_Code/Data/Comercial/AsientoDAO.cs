@@ -109,5 +109,42 @@ namespace BriSky.Data.Comercial
                 }
             }
         }
+        public void LlamarSpReservarAsiento(int idVuelo, string numAsiento)
+        {
+            using (var con = Conexion.GetConnection())
+            {
+                con.Open();
+                // Simulación o llamada al SP real
+                using (var cmd = new SqlCommand("brisky.reservar_asiento", con))
+                {
+                    cmd.CommandType = CommandType.StoredProcedure;
+                    cmd.Parameters.AddWithValue("@p_id_vuelo", idVuelo);
+                    cmd.Parameters.AddWithValue("@p_num_asiento", numAsiento);
+                    cmd.ExecuteNonQuery();
+                }
+            }
+        }
+
+        public List<Asiento> ObtenerAsientosLibres(int idVuelo)
+        {
+            List<Asiento> libres = new List<Asiento>();
+            using (var con = Conexion.GetConnection())
+            {
+                con.Open();
+                string query = "SELECT * FROM brisky.asientos_disponibles(@IdVuelo)";
+                using (var cmd = new SqlCommand(query, con))
+                {
+                    cmd.Parameters.AddWithValue("@IdVuelo", idVuelo);
+                    using (var reader = cmd.ExecuteReader())
+                    {
+                        while (reader.Read())
+                        {
+                            libres.Add(Mapear(reader));
+                        }
+                    }
+                }
+            }
+            return libres;
+        }
     }
 }

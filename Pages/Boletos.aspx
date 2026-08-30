@@ -49,7 +49,7 @@
         <div class="grid-section">
             <h3>Boletos Emitidos</h3>
             <asp:GridView ID="gvBoletos" runat="server" AutoGenerateColumns="False" CssClass="styled-grid" 
-                          DataKeyNames="NumBoleto" OnRowCommand="gvBoletos_RowCommand">
+                          DataKeyNames="NumBoleto">
                 <Columns>
                     <asp:BoundField DataField="NumBoleto" HeaderText="N° Boleto" />
                     <asp:BoundField DataField="CodReserva" HeaderText="Cod. Reserva" />
@@ -63,59 +63,10 @@
                             </span>
                         </ItemTemplate>
                     </asp:TemplateField>
-                    <asp:TemplateField HeaderText="Acciones">
-                        <ItemTemplate>
-                            <asp:LinkButton ID="btnEditar" runat="server" CommandName="EditarBoleto" CommandArgument='<%# Eval("NumBoleto") %>' CssClass="action-link"><i class="fa-solid fa-pen"></i></asp:LinkButton>
-                            <asp:LinkButton ID="btnEliminar" runat="server" CommandName="EliminarBoleto" CommandArgument='<%# Eval("NumBoleto") %>' CssClass="action-link action-delete" OnClientClick="return confirm('¿Eliminar este boleto del registro?');"><i class="fa-solid fa-trash"></i></asp:LinkButton>
-                        </ItemTemplate>
-                    </asp:TemplateField>
                 </Columns>
             </asp:GridView>
         </div>
 
-        <!-- Columna Derecha: Formulario -->
-        <div class="form-section">
-            <h3 id="lblTituloForm" runat="server">Generar Boleto</h3>
-            
-            <div class="form-group">
-                <label>N° Boleto (Ticket Físico/Virtual)</label>
-                <asp:TextBox ID="txtNumBoleto" runat="server" CssClass="form-control" MaxLength="20"></asp:TextBox>
-            </div>
-            
-            <div class="form-group">
-                <label>Vuelo Operativo</label>
-                <asp:DropDownList ID="ddlVuelo" runat="server" CssClass="form-control"></asp:DropDownList>
-            </div>
-            
-            <div class="form-group">
-                <label>Código de Reserva</label>
-                <!-- Usamos un TextBox por ahora según la Opción A -->
-                <asp:TextBox ID="txtCodReserva" runat="server" CssClass="form-control" MaxLength="20" placeholder="Ej: RES-100"></asp:TextBox>
-            </div>
-            
-            <div style="display:flex; gap:10px;">
-                <div class="form-group" style="flex:1;">
-                    <label>Asiento (Ej: 12B)</label>
-                    <asp:TextBox ID="txtNumAsiento" runat="server" CssClass="form-control" MaxLength="5"></asp:TextBox>
-                </div>
-                <div class="form-group" style="flex:1;">
-                    <label>Precio ($)</label>
-                    <asp:TextBox ID="txtPrecio" runat="server" CssClass="form-control" TextMode="Number" step="0.01"></asp:TextBox>
-                </div>
-            </div>
-
-            <div class="form-group">
-                <label>Estado del Boleto</label>
-                <asp:DropDownList ID="ddlAnulado" runat="server" CssClass="form-control">
-                    <asp:ListItem Text="VÁLIDO" Value="False"></asp:ListItem>
-                    <asp:ListItem Text="ANULADO" Value="True"></asp:ListItem>
-                </asp:DropDownList>
-            </div>
-            
-            <div style="margin-top: 20px; display:flex; gap:10px;">
-                <asp:Button ID="btnGuardar" runat="server" Text="Guardar Boleto" CssClass="btn btn-primary" OnClick="btnGuardar_Click" style="flex:1;" />
-                <asp:Button ID="btnLimpiar" runat="server" Text="Limpiar" CssClass="btn btn-secondary" OnClick="btnLimpiar_Click" />
-            </div>
         </div>
     </div>
 </asp:Content>

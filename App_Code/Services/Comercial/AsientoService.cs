@@ -59,5 +59,29 @@ namespace BriSky.Services.Comercial
         {
             _dao.Eliminar(idVuelo, numAsiento);
         }
+
+        public List<AsientoVueloDetalle> ObtenerMapaVuelo(int idVuelo)
+        {
+            var todos = _dao.ObtenerPorVuelo(idVuelo);
+            var libres = _dao.ObtenerAsientosLibres(idVuelo);
+            var libresNombres = new HashSet<string>(libres.ConvertAll(l => l.NumAsiento));
+
+            return todos.ConvertAll(a => new AsientoVueloDetalle {
+                IdVuelo = a.IdVuelo,
+                NumAsiento = a.NumAsiento,
+                Clase = a.Clase,
+                Disponible = libresNombres.Contains(a.NumAsiento)
+            });
+        }
+
+        public bool ValidarDisponibilidad(int idVuelo, List<string> asientosElegidos)
+        {
+            var libres = _dao.ObtenerAsientosLibres(idVuelo).ConvertAll(a => a.NumAsiento);
+            foreach (var a in asientosElegidos)
+            {
+                if (!libres.Contains(a)) return false;
+            }
+            return true;
+        }
     }
 }

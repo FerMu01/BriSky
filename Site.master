@@ -7,8 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title><%: Page.Title %> - BriSky</title>
     
-    <link href="~/Content/Site.css" rel="stylesheet" />
-    <link href="~/Content/Sidebar.css" rel="stylesheet" />
+    <link href="~/Content/Site.css?v=2" rel="stylesheet" />
+    <link href="~/Content/Sidebar.css?v=2" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
     <asp:ContentPlaceHolder ID="HeadContent" runat="server"></asp:ContentPlaceHolder>
@@ -19,7 +19,7 @@
         
         <div class="wrapper">
             <!-- Sidebar -->
-            <nav id="sidebar">
+            <nav id="sidebar" runat="server">
                 <div class="sidebar-header">
                     <i class="fa-solid fa-plane logo-icon"></i>
                     <span class="logo-text">BriSky</span>
@@ -29,7 +29,7 @@
                     <li>
                         <a href="~/" runat="server"><i class="fa-solid fa-house"></i> <span>Inicio</span></a>
                     </li>
-                    <li class="has-submenu">
+                    <li class="has-submenu" id="menuGestion" runat="server">
                         <a href="#gestionSubmenu" class="dropdown-toggle" aria-expanded="false">
                             <i class="fa-solid fa-briefcase"></i> <span>Gestión</span>
                         </a>
@@ -40,7 +40,7 @@
                             <li><a href="~/Pages/Tarifas" runat="server">Tarifas</a></li>
                         </ul>
                     </li>
-                    <li class="has-submenu">
+                    <li class="has-submenu" id="menuFlota" runat="server">
                         <a href="#flotaSubmenu" class="dropdown-toggle" aria-expanded="false">
                             <i class="fa-solid fa-plane-up"></i> <span>Flota</span>
                         </a>
@@ -49,7 +49,7 @@
                             <li><a href="~/Pages/Mantenimiento" runat="server">Mantenimiento</a></li>
                         </ul>
                     </li>
-                    <li class="has-submenu">
+                    <li class="has-submenu" id="menuOperaciones" runat="server">
                         <a href="#operacionesSubmenu" class="dropdown-toggle" aria-expanded="false">
                             <i class="fa-solid fa-gears"></i> <span>Operaciones</span>
                         </a>
@@ -73,11 +73,15 @@
 
             <!-- Page Content -->
             <div id="content">
-                <nav class="navbar top-navbar">
-                    <div class="container-fluid">
-                        <button type="button" id="sidebarCollapse" class="btn-toggle">
+                <nav id="topNavbar" class="navbar top-navbar" runat="server">
+                    <div class="container-fluid" style="display: flex; justify-content: space-between; width: 100%;">
+                        <button type="button" id="sidebarCollapse" class="btn-toggle" runat="server">
                             <i class="fa-solid fa-bars"></i>
                         </button>
+                        
+                        <asp:LinkButton ID="btnVolverInicio" runat="server" OnClick="btnVolverInicio_Click" Visible="false" style="background: rgba(255,255,255,0.2); color: white; border: 1px solid rgba(255,255,255,0.4); border-radius: 8px; text-decoration: none; padding: 10px 20px; font-weight: bold; transition: all 0.3s;">
+                            <i class="fa-solid fa-house"></i> Volver a Selección de Rol
+                        </asp:LinkButton>
                     </div>
                 </nav>
 

@@ -52,7 +52,7 @@
         <div class="grid-section">
             <h3>Reservas Registradas</h3>
             <asp:GridView ID="gvReservas" runat="server" AutoGenerateColumns="False" CssClass="styled-grid"
-                          DataKeyNames="CodReserva" OnRowCommand="gvReservas_RowCommand">
+                          DataKeyNames="CodReserva">
                 <Columns>
                     <asp:BoundField DataField="CodReserva" HeaderText="Código" />
                     <asp:BoundField DataField="NombrePasajero" HeaderText="Pasajero" />
@@ -69,92 +69,10 @@
                             <span class='<%# ClaseBadgeEstado(Eval("Estado").ToString()) %>'><%# Eval("Estado") %></span>
                         </ItemTemplate>
                     </asp:TemplateField>
-                    <asp:TemplateField HeaderText="Acciones">
-                        <ItemTemplate>
-                            <asp:LinkButton ID="btnConfirmar" runat="server" CommandName="ConfirmarReserva" CommandArgument='<%# Eval("CodReserva") %>' CssClass="action-link" ToolTip="Confirmar"><i class="fa-solid fa-check"></i></asp:LinkButton>
-                            <asp:LinkButton ID="btnCancelar" runat="server" CommandName="CancelarReserva" CommandArgument='<%# Eval("CodReserva") %>' CssClass="action-link" ToolTip="Cancelar" OnClientClick="return confirm('¿Cancelar esta reserva?');"><i class="fa-solid fa-ban"></i></asp:LinkButton>
-                            <asp:LinkButton ID="btnGenerarBoleto" runat="server" Visible='<%# Eval("TipoReserva").ToString() == "INTERNET" %>' CommandName="GenerarBoletoReserva" CommandArgument='<%# Eval("CodReserva") %>' CssClass="action-link" ToolTip="Generar Boleto"><i class="fa-solid fa-ticket"></i></asp:LinkButton>
-                        </ItemTemplate>
-                    </asp:TemplateField>
                 </Columns>
             </asp:GridView>
         </div>
 
-        <!-- Columna Derecha: Formulario -->
-        <div class="form-section">
-            <h3>Nueva Reserva</h3>
-
-            <div class="form-group">
-                <label>Código de Reserva</label>
-                <asp:TextBox ID="txtCodReserva" runat="server" CssClass="form-control" MaxLength="20"></asp:TextBox>
-            </div>
-
-            <div class="form-group">
-                <label>Pasajero</label>
-                <asp:DropDownList ID="ddlPasajero" runat="server" CssClass="form-control"></asp:DropDownList>
-            </div>
-
-            <div class="form-group">
-                <label>Vuelo</label>
-                <asp:DropDownList ID="ddlVuelo" runat="server" CssClass="form-control"></asp:DropDownList>
-            </div>
-
-            <div class="form-group">
-                <label>Tarifa</label>
-                <asp:DropDownList ID="ddlTarifa" runat="server" CssClass="form-control"></asp:DropDownList>
-            </div>
-
-            <p style="color:#64748b; font-size:0.85rem;">El precio se calcula automáticamente según la tarifa seleccionada.</p>
-
-            <div class="form-group">
-                <label>Canal de Venta</label>
-                <asp:DropDownList ID="ddlTipoReserva" runat="server" CssClass="form-control" AutoPostBack="true" OnSelectedIndexChanged="ddlTipoReserva_SelectedIndexChanged">
-                    <asp:ListItem Text="Oficina" Value="OFICINA"></asp:ListItem>
-                    <asp:ListItem Text="Internet" Value="INTERNET"></asp:ListItem>
-                </asp:DropDownList>
-            </div>
-
-            <!-- Específico Reserva Oficina: registrar_venta crea reserva + boleto + pago -->
-            <asp:Panel ID="pnlOficina" runat="server" CssClass="panel-dinamico">
-                <div class="form-group">
-                    <label>Empleado que Atiende</label>
-                    <asp:DropDownList ID="ddlEmpleado" runat="server" CssClass="form-control"></asp:DropDownList>
-                </div>
-                <div class="form-group">
-                    <label>N° de Boleto a Emitir</label>
-                    <asp:TextBox ID="txtNumBoleto" runat="server" CssClass="form-control" MaxLength="15"></asp:TextBox>
-                </div>
-                <div style="display:flex; gap:10px;">
-                    <div class="form-group" style="flex:1;">
-                        <label>Código de Pago</label>
-                        <asp:TextBox ID="txtCodPago" runat="server" CssClass="form-control" MaxLength="12"></asp:TextBox>
-                    </div>
-                    <div class="form-group" style="flex:1;">
-                        <label>Método de Pago</label>
-                        <asp:DropDownList ID="ddlMetodoPago" runat="server" CssClass="form-control">
-                            <asp:ListItem Text="Efectivo" Value="EFECTIVO"></asp:ListItem>
-                            <asp:ListItem Text="Tarjeta de Crédito" Value="TARJETA_CREDITO"></asp:ListItem>
-                            <asp:ListItem Text="Tarjeta de Débito" Value="TARJETA_DEBITO"></asp:ListItem>
-                            <asp:ListItem Text="Transferencia" Value="TRANSFERENCIA"></asp:ListItem>
-                        </asp:DropDownList>
-                    </div>
-                </div>
-                <p style="color:#64748b; font-size:0.85rem; margin:0;">La venta en oficina emite el boleto y registra el pago de inmediato.</p>
-            </asp:Panel>
-
-            <!-- Específico Reserva Internet: crear_reserva_internet solo genera la reserva (queda pendiente) -->
-            <asp:Panel ID="pnlInternet" runat="server" CssClass="panel-dinamico" Visible="false">
-                <div class="form-group">
-                    <label>IP de Origen</label>
-                    <asp:TextBox ID="txtIpOrigen" runat="server" CssClass="form-control" MaxLength="45" placeholder="Se registra automáticamente si se deja en blanco"></asp:TextBox>
-                </div>
-                <p style="color:#64748b; font-size:0.85rem; margin:0;">Queda como reserva pendiente. El boleto se genera después con el botón <i class="fa-solid fa-ticket"></i> en la grilla, una vez confirmada.</p>
-            </asp:Panel>
-
-            <div style="margin-top: 20px; display:flex; gap:10px;">
-                <asp:Button ID="btnGuardar" runat="server" Text="Registrar Reserva" CssClass="btn btn-primary" OnClick="btnGuardar_Click" style="flex:1;" />
-                <asp:Button ID="btnLimpiar" runat="server" Text="Limpiar" CssClass="btn btn-secondary" OnClick="btnLimpiar_Click" />
-            </div>
         </div>
     </div>
 </asp:Content>

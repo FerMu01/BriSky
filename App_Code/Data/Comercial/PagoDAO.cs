@@ -75,5 +75,27 @@ namespace BriSky.Data.Comercial
                 }
             }
         }
+
+        public void ProcesarPago(string codPago, string codReserva, decimal monto, string metodoPago)
+        {
+            using (var con = Conexion.GetConnection())
+            {
+                con.Open();
+                using (var cmd = new SqlCommand("brisky.procesar_pago", con))
+                {
+                    cmd.CommandType = CommandType.StoredProcedure;
+                    cmd.Parameters.AddWithValue("@p_cod_pago", codPago);
+                    cmd.Parameters.AddWithValue("@p_cod_reserva", codReserva);
+                    cmd.Parameters.AddWithValue("@p_monto", monto);
+                    cmd.Parameters.AddWithValue("@p_metodo", metodoPago);
+                    
+                    SqlParameter paramResultado = new SqlParameter("@p_resultado", SqlDbType.VarChar, 255);
+                    paramResultado.Direction = ParameterDirection.Output;
+                    cmd.Parameters.Add(paramResultado);
+
+                    cmd.ExecuteNonQuery();
+                }
+            }
+        }
     }
 }

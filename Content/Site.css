@@ -1,20 +1,143 @@
 /* General site overrides */
+:root {
+    --primary-blue: #003366;
+    --accent-orange: #E67E22;
+    --glass-bg-light: rgba(255, 255, 255, 0.85);
+    --glass-bg-dark: rgba(11, 17, 32, 0.65);
+    --glass-border: rgba(255, 255, 255, 0.25);
+    --glass-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.2);
+}
+
 body {
     font-family: 'Inter', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f1f5f9;
+    background: linear-gradient(135deg, #0b1120 0%, #1a365d 100%);
+    background-attachment: fixed;
+    color: #f1f5f9;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: #1e293b;
+    color: #ffffff;
     margin-top: 0;
 }
 
+/* CORRECCIÓN DE CONTRASTE: Los encabezados dentro de paneles claros (blancos/plomos) DEBEN ser oscuros */
+.glass-panel-light h1, .glass-panel-light h2, .glass-panel-light h3, .glass-panel-light h4, .glass-panel-light h5, .glass-panel-light h6,
+.card h1, .card h2, .card h3, .card h4, .card h5, .card h6,
+.grid-section h1, .grid-section h2, .grid-section h3, .grid-section h4, .grid-section h5, .grid-section h6,
+.form-section h1, .form-section h2, .form-section h3, .form-section h4, .form-section h5, .form-section h6 {
+    color: #0f172a !important;
+}
+
+/* Contenedor Glassmorphism Oscuro (Para el exterior) */
+.glass-panel {
+    background: var(--glass-bg-dark);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid var(--glass-border);
+    border-radius: 16px;
+    box-shadow: var(--glass-shadow);
+    padding: 25px;
+    color: #fff;
+}
+
+/* Contenedor Glassmorphism Claro (Para formularios e inputs legibles) */
+.glass-panel-light {
+    background: var(--glass-bg-light);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid var(--glass-border);
+    border-radius: 16px;
+    box-shadow: var(--glass-shadow);
+    padding: 25px;
+    color: #1e293b;
+}
+
 .card {
-    background: #fff;
-    border-radius: 8px;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    background: var(--glass-bg-light);
+    backdrop-filter: blur(12px);
+    border: 1px solid var(--glass-border);
+    border-radius: 12px;
+    box-shadow: var(--glass-shadow);
     padding: 20px;
     margin-bottom: 20px;
+    color: #1e293b;
+}
+
+/* =========================================
+   OVERRIDE GLOBAL PARA CRUD ADMINISTRATIVOS
+   ========================================= */
+.grid-section, .form-section {
+    background: var(--glass-bg-light) !important;
+    backdrop-filter: blur(16px) !important;
+    -webkit-backdrop-filter: blur(16px) !important;
+    border: 1px solid var(--glass-border) !important;
+    border-radius: 16px !important;
+    box-shadow: var(--glass-shadow) !important;
+    color: #1e293b !important;
+}
+
+.form-group label {
+    color: #0f172a !important;
+    font-weight: 600 !important;
+}
+
+/* Mejora de contraste para botones grises (plomos) */
+.btn-secondary {
+    background: #475569 !important; /* Gris más oscuro para que el texto blanco sea ultra legible */
+    color: #ffffff !important;
+    border: 1px solid #334155 !important;
+}
+.btn-secondary:hover {
+    background: #334155 !important;
+}
+
+.form-control {
+    background: rgba(255, 255, 255, 0.5) !important;
+    border: 1px solid rgba(0, 51, 102, 0.2) !important;
+    border-radius: 8px !important;
+    backdrop-filter: blur(4px) !important;
+    color: #0f172a !important;
+    transition: all 0.3s !important;
+}
+
+.form-control:focus {
+    background: rgba(255, 255, 255, 0.9) !important;
+    border-color: var(--primary-blue) !important;
+    outline: none !important;
+    box-shadow: 0 0 0 3px rgba(0, 51, 102, 0.1) !important;
+}
+
+.styled-grid th {
+    background-color: rgba(0, 51, 102, 0.1) !important;
+    color: #003366 !important;
+    border-bottom: 2px solid rgba(0, 51, 102, 0.2) !important;
+}
+
+.styled-grid td {
+    border-bottom: 1px solid rgba(0, 51, 102, 0.1) !important;
+}
+
+.styled-grid tr:hover {
+    background-color: rgba(255, 255, 255, 0.4) !important;
+}
+
+.tabs-container {
+    border-bottom: 2px solid rgba(255, 255, 255, 0.3) !important;
+}
+
+.tab-button {
+    color: #cbd5e1 !important; 
+    font-weight: 600 !important;
+}
+
+.tab-button.active-tab {
+    color: #ffffff !important;
+    border-bottom-color: #ffffff !important;
+    text-shadow: 0 0 10px rgba(255,255,255,0.5) !important;
+}
+
+.tab-button:hover {
+    color: #ffffff !important;
 }

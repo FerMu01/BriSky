@@ -100,5 +100,23 @@ namespace BriSky.Services.Operaciones
                 throw;
             }
         }
+        public List<VueloDetalle> ConsultarRutas(string origen, string destino, DateTime fecha, int cantidadPasajeros)
+        {
+            if (fecha.Date < DateTime.Today)
+            {
+                throw new ArgumentException("La fecha de consulta no puede ser en el pasado.");
+            }
+            if (string.IsNullOrWhiteSpace(origen) || string.IsNullOrWhiteSpace(destino))
+            {
+                throw new ArgumentException("El origen y el destino son obligatorios.");
+            }
+
+            return _dao.BuscarVuelosWeb(origen, destino, fecha, cantidadPasajeros);
+        }
+
+        public VueloDetalle ObtenerDetallePorId(int idVuelo)
+        {
+            return _dao.ObtenerDetallePorId(idVuelo);
+        }
     }
 }
